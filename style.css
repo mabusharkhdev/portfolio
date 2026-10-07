@@ -73,3 +73,22 @@ nav a:hover {
   color: #555;
   font-size: 0.9rem;
 }
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 40px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+}
