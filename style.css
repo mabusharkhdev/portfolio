@@ -39,3 +39,17 @@ p {
 .button:hover {
   background-color: #1d4ed8;
 }
+nav {
+  margin-bottom: 60px;
+}
+
+nav a {
+  color: #2563eb;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
